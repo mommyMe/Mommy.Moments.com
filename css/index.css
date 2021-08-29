@@ -538,10 +538,7 @@ footer{
         color: white;
         font-size: 30px;
     }
-    .icon:hover{
-        outline: 2px solid wheat;
-        outline-offset: 10px;
-    }
+ 
     ol, ul {
         padding-left: 0rem;
     }
