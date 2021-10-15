@@ -25,6 +25,8 @@
 <!-- aos -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+<!-- type js   -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <title>Mommy Ahmed</title>
   </head>
   <body>
@@ -81,18 +83,9 @@
         </div>
 
         <div class="col-md-6 name mt-5 mt-lg-0 text-center position-relative align-self-center me-md-5 justify-content-center">
-          <h1 class="h">I am Mommy</h1>
+          <h1 class="h">I am <span class="elements"></span></h1>
 
-            <div class="wrapper">
-                <div class="static-txts col-md-5">I am a</div>
-                    <ul class="dynamic-txts">
-                        <li><span>GIRL</span></li>
-                        <li><span>SISTER</span></li>
-                        <li><span>WOMEN</span></li>
-                        <li><span>TUTOR</span></li>
-
-                    </ul>
-            </div>
+           
 
         </div>
         
@@ -135,8 +128,8 @@
   </div>
   </div>
   <div class="col-md-5 align-self-center overflow-hidden  mt-md-5 text-right ms-md-5 pl-md-5" data-aos="fade-up">
-    <h1 class="h-p">I AM A .....</h1>
-    <p class="p">GIrl who belives "If you can dream it, you can do it".And If there is a will there is a way........</p>
+    <h1 class="h-p ps-5">I AM A .....</h1>
+    <p class="p ps-5">GIrl who belives "If you can dream it, you can do it".And If there is a will there is a way........</p>
   </div>
   </div>
 </div>
@@ -457,7 +450,7 @@
 
       <div class="col-md-2">
         <h3 class="footer-h">Services</h3>
-        <p><a href="" class="f-child">Buy Outfits</a></p>
+        <p><a href="" class="f-child">Buy Photos</a></p>
         <p><a href="" class="f-child">Buy Accecories</a></p>
         <p><a href="" class="f-child">Custom designed website</a></p>
         <p><a href="" class="f-child">Affiliate</a></p>
@@ -476,7 +469,7 @@
       </div>
 
     </div>
-      <p class="f-child text-center p-3">©2021 ALL RIGHTS ARE RESERVED BY AHMED</p>
+  <p class="f-child text-center p-3">©2021 ALL RIGHTS ARE RESERVED BY MMAHMED</p>
 
   </div>
 </footer>
@@ -522,6 +515,20 @@
         }
     }
 })
+
+
+// type js 
+var options = {
+  strings: ['Mommy','a Teacher', 'a Sister' ,'a woman'],
+  typeSpeed: 40,
+  backSpeed:40,
+  loop:true,
+
+  smartBackspace: true
+};
+
+var typed = new Typed('.elements', options);
 </script>
   </body>
 </html>
+
